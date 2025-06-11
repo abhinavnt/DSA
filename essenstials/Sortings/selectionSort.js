@@ -8,10 +8,10 @@ function selectionSort(arr) {
       }
     }
 
-    // Swap values
-    let temp = arr[i];
-    arr[i] = arr[min];
-    arr[min] = temp;
+    if(min!==i){
+      [arr[i],arr[min]]=[arr[min],arr[i]]
+    }
+   
   }
 
   return arr;
