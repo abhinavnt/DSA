@@ -55,6 +55,35 @@ class BinaryTree {
       if (current.right) queue.push(current.right);
     }
   }
+
+
+  preorder(root){
+    if(root){
+        console.log(root.value);
+        this.preorder(root.left)
+        this.preorder(root.right)
+    }
+  }
+
+  inorder(root){
+    if(root){
+        this.inorder(root.left)
+        console.log(root.value);
+        this.inorder(root.right)
+    }
+  }
+
+  postorder(root){
+    if(root){
+        this.postorder(root.left)
+        this.postorder(root.right)
+        console.log(root.value);
+    }
+  }
+
+
+
+
 }
 
 const bt = new BinaryTree();
@@ -63,4 +92,30 @@ bt.insert(10);
 bt.insert(40);
 bt.insert(50);
 bt.insert(4);
-bt.levelorder();
+// bt.levelorder();
+
+const bt2=new BinaryTree()
+
+bt2.insert(10);
+bt2.insert(40);
+bt2.insert(50);
+bt2.insert(5);
+// bt2.levelorder();
+
+
+
+
+
+//function for check Check if two binary trees are identical.
+function areIdentical(root1,root2){
+    if(root1==null && root2==null)return true
+    if(root1==null || root2==null)return false
+
+    return (
+        root1.value===root2.value&&
+        areIdentical(root1.left,root2.left)&&
+        areIdentical(root1.right,root2.right)
+    )
+}
+
+console.log(areIdentical(bt.root,bt2.root));
