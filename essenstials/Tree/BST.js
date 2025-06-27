@@ -245,6 +245,26 @@ class BST {
     inorder(root);
     return result;
   }
+
+  //findKthLargest
+  findKthLargest(root, k) {
+    let count = 0;
+    let result = null;
+
+    function reverseInorder(node) {
+      if (!node || result !== null) return;
+      reverseInorder(node.right);
+
+      count++;
+      if (count == k) {
+        result = node.value;
+        return;
+      }
+      reverseInorder(node.left);
+    }
+    reverseInorder(root);
+    return result;
+  }
 }
 
 let bst = new BST();
