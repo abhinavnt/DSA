@@ -265,6 +265,29 @@ class BST {
     reverseInorder(root);
     return result;
   }
+
+  //Count single child nodes in a BST.
+  countSingleChildNodes(root) {
+    if (!root) return 0;
+    let count = 0;
+
+    function dfs(node) {
+      if (!node) return;
+
+      const hasLeft = !!node.left;
+      const hasRight = !!node.right;
+
+      if ((hasLeft && !hasRight) || (!hasLeft && hasRight)) {
+        count++;
+      }
+
+      dfs(node.left);
+      dfs(node.right);
+    }
+
+    dfs(root);
+    return count;
+  }
 }
 
 let bst = new BST();
