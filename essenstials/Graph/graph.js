@@ -65,7 +65,7 @@ bfs(start){
 
         for(let nighbour of this.adjacencyList[vertex]){
             if(!visited[nighbour]){
-                visited.push[nighbour]=true
+                visited[nighbour]=true
                 queue.push(nighbour)
             }
         }
