@@ -5,5 +5,5 @@ const result =arr.flatMap(item=>
     [item*2]
     :item.flatMap(inner=>[inner*1])
 )
-
+ 
 console.log(result);
