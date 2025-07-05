@@ -7,3 +7,4 @@ const result =arr.flatMap(item=>
 )
  
 console.log(result);
+ 
