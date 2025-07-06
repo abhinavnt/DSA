@@ -15,7 +15,7 @@ const bigArray = [
 
 function groupArray(arr,n){
     let result=[]
-    let temp=[]
+    let temp=[] 
 
     for(i=0;i<arr.length;i++){
         temp.push(arr[i])
