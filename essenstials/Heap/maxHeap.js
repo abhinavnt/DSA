@@ -13,7 +13,7 @@ class maxHeap{
         this.heap.push(value)
         this.heapifyUP()
     }
-
+ 
     heapifyUP(){
         let index=this.heap.length-1
         while(index>0){
