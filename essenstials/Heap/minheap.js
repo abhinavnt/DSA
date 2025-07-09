@@ -9,7 +9,7 @@ class minHeap{
         
     }
 
-    insert(value){
+    insert(value){ 
        this.heap.push(value)
           this.heapifyup
     }
