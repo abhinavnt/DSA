@@ -3,17 +3,17 @@ class minHeap{
         this.heap=[]
     }
 
-
+ 
     view(){
-        return console.log(this.heap);
+         return console.log(this.heap);
         
     }
 
     insert(value){ 
        this.heap.push(value)
           this.heapifyup
-    }
-
+    }               
+ 
 
     heapifyup(){
         let index=this.heap.length-1
