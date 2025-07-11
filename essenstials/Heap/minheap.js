@@ -8,7 +8,7 @@ class minHeap{
          return console.log(this.heap);
         
     }
-
+   
     insert(value){ 
        this.heap.push(value)
           this.heapifyup
