@@ -13,9 +13,9 @@ class minHeap{
        this.heap.push(value)
           this.heapifyup
     }               
-                 
+                  
     
-                        
+                                         
     heapifyup(){
         let index=this.heap.length-1
 
