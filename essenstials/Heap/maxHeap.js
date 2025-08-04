@@ -23,7 +23,7 @@ class maxHeap{
             index=parentIndex
         }
     }
-
+           
     heapifyDown(){
         let index=0 
         let length=this.heap.length
