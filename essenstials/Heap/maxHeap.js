@@ -22,7 +22,8 @@ class maxHeap{
             [this.heap[index],this.heap[parentIndex]=this.heap[parentIndex],this.heap[index]]
             index=parentIndex
         }
-    }  
+    }    
+    
                
     heapifyDown(){
         let index=0 
