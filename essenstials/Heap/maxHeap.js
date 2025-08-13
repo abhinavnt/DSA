@@ -14,6 +14,7 @@ class maxHeap{
         this.heapifyUP()
     }
  
+    
     heapifyUP(){
         let index=this.heap.length-1
         while(index>0){
@@ -25,9 +26,6 @@ class maxHeap{
     }    
 
 
-    
-             
-       
       
     heapifyDown(){
         let index=0 
