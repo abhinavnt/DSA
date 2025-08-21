@@ -9,11 +9,6 @@ class maxHeap{
     }
 
     
-
-
-      
-
-
     insert(value){
         this.heap.push(value)
         this.heapifyUP()
