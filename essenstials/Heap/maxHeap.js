@@ -18,9 +18,6 @@ class maxHeap{
     }
 
 
-
-    
- 
     
     heapifyUP(){
         let index=this.heap.length-1
