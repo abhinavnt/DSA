@@ -26,6 +26,9 @@ class maxHeap{
         }
     }    
 
+
+
+    
  
     heapifyDown(){
         let index=0 
