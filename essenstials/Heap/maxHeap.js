@@ -30,17 +30,13 @@ class maxHeap{
 
 
 
-    
 
-
-    
- 
     heapifyDown(){
         let index=0 
         let length=this.heap.length
         let element=this.heap[0]
         while(true){
-            let leftChildIndex=2*i+1
+          let leftChildIndex=2*i+1
             let rightChildIndex=2*i+2
             let rightChild,leftChild
             let swap=null
