@@ -27,11 +27,7 @@ class maxHeap{
     }    
 
 
-
-
-
-
-    heapifyDown(){
+heapifyDown(){
         let index=0 
         let length=this.heap.length
         let element=this.heap[0]
