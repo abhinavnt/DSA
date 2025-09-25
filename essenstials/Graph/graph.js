@@ -87,3 +87,5 @@ Graph2.display()
 Graph2.edge(43,32)
 Graph2.display()
 Graph2.display()
+
+
