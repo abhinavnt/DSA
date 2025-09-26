@@ -5,6 +5,8 @@ function sumrec(obj){
         for(item of obj){
             sum+=sumrec(item)
         }
+
+        
     }else if(typeof obj=='object' && obj!==null){
         for(item in obj){
             sum+=sumrec(obj[item])
@@ -15,7 +17,9 @@ function sumrec(obj){
     }
 
 
-    
+
+
+
 
     return sum
 }
