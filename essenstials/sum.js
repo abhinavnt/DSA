@@ -15,13 +15,11 @@ function sumrec(obj){
     }
 
 
-
-
-
-
-
     return sum
 }
+
+
+
 
 
 let obj={a:1,b:[2,{c:3}],d:4,e:{f:5,g:{h:6,i:{j:7,k:8,l:{m:9,n:{o:10}}}}}}
