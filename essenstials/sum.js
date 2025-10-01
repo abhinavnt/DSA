@@ -12,6 +12,9 @@ function sumrec(obj){
     }else if(typeof obj=='number'){
         sum+=obj
 
+
+
+        
     }
 
 
