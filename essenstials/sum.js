@@ -13,9 +13,6 @@ function sumrec(obj){
         sum+=obj
 
 
-
-
-
     }
 
 
