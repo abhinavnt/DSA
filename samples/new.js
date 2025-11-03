@@ -120,4 +120,8 @@ function sumArray(obj){
   
   return sum
   
-}zz
+}
+
+
+
+
