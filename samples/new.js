@@ -122,3 +122,20 @@ function sumArray(obj){
   
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
