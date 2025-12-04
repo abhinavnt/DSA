@@ -135,7 +135,3 @@ function sumArray(obj){
 
 
 
-
-
-
-
