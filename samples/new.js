@@ -124,10 +124,3 @@ function sumArray(obj){
 
 
 
-
-
-
-
-
-
-
