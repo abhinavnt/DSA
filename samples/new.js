@@ -123,22 +123,3 @@ function sumArray(obj){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
