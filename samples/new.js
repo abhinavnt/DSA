@@ -220,9 +220,3 @@ function sumArray(obj){
 
 
 
-
-
-
-
-
-
