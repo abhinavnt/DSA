@@ -202,6 +202,3 @@ function sumArray(obj){
 
 
 
-
-
-
