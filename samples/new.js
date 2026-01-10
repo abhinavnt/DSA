@@ -172,12 +172,3 @@ function sumArray(obj){
 
 
 
-
-
-
-
-
-
-
-
-
