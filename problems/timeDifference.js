@@ -12,17 +12,3 @@ const time1 = "10:30";
 const time2 = "16:30";
 
 console.log(getTimeDifferenceInMinutes(time1, time2));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
