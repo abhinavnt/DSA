@@ -25,34 +25,3 @@ console.log(getTimeDifferenceInMinutes(time1, time2));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
