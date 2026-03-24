@@ -37,3 +37,36 @@ function groupArray(arr,n){
 
 
 console.log(groupArray(bigArray,3));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
